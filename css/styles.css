@@ -1,0 +1,212 @@
+/* Colors
+Primary FF6464
+Secondary 00A8CC
+Dark 21243D
+Light 8695A4
+White FFFFFF
+*/
+
+/* ****** General Elements ****** */
+body {
+    font-family: "Roboto", serif;
+    color: #383c58;
+}
+
+h1{
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+h4{
+    margin: 0 0 8px 0;
+    font-size: 20px;
+    color: #21243D;
+}
+
+p{
+  font-size: 16px; /*nunca se si es mejor poenr esto aca y o en el body y que lo herede*/
+  color: #383c58;
+  line-height: 150%; /*en figma generalmente lo uso así, no se si es lo más optimo para web ? */
+  font-weight: 400;
+}
+
+a{
+    color: #FF6464;
+}
+a:hover{
+    color: #a84242;
+}
+
+
+/* ************ Primary hero
+*******/
+.text-body-emphasis{
+    color: #383c58 !important;
+    font-size: 2.5rem;
+}
+.lead{
+    font-size: 1rem;
+}
+
+li{
+    line-height: 150%;
+}
+
+ /* ** custom rss in the footer ** */
+
+ .facebook{
+    background-image: url(../img/icon-facebook.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+ }
+ .instagram{
+    background-image: url(../img/icon-instagram.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+ }
+ .linkedin{
+    background-image: url(../img/icion-linkedin.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+ }
+
+/* ****** Custom Elements ****** */
+
+/* Navigation */
+.navbar{
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #21243d0a;
+    border-bottom: 1px solid #8695a42d;
+}
+
+.navbar-brand{
+    font-size: 14px;
+    padding: 0px 0px 0px 80px;
+    background-image: url(../img/logo.png); /*tengo que ir para afuera de la carpeta*/
+    background-repeat: no-repeat;
+    background-size: 64px;
+    background-position: center left;
+    color: #00A8CC;
+}
+
+.navbar-brand span{
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    color: #8695A4;
+}
+
+.navbar-nav li a{
+    display: inline-block;
+    color: #21243D;
+    text-decoration: none;
+}
+
+a.nav-link.active{
+    color: #00A8CC !important;
+}
+
+.navbar-nav li a:hover{
+    color: #15768b !important;
+}
+
+/* sections */
+
+section{
+    padding: 32px;
+}
+
+.banner{
+    text-align: center;
+}
+
+.banner p{
+    color: #024F5C;
+}
+
+/* general color styles */
+
+.bg-white{
+    background-color: #fff;
+}
+
+
+.bg-secondary{
+   background-color: #00A8CC !important; 
+}
+
+.bg-secondary p{
+    color: #B1F3FE;
+} /*porque quiero que todos los textos dentro del bg-secondary sean de este color*/
+
+.bg-light{
+    background-color: #EDF7FA !important;
+}
+
+
+/* primary button, con los colores que yo quiero */
+.btn-primary{
+    background-color: #FF6464;
+    border-color: #FF6464;
+}
+.btn-primary:hover{
+    background-color: #a84242;
+    border-color: #a84242;
+}
+
+/*images*/
+.img-wrapper{
+    display: inline-block;
+}
+.img-wrapper img{
+    height: 100%; /*porque me queda como cortada por el tamaño.. luego lo reviso si tengo tiempo*/
+    max-width: 100%;
+}
+
+
+/* special lists */
+.dotted-list{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+}
+.dotted-list li{
+    float: left;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    margin: 5px 8px;
+    color: #21243D;
+}
+
+/* Contact Form 
+como ahora solo tengo un formualrio, voy aponer estilos genericos a los elementos, y no clases
+*/
+form{
+    margin: 32px 0px;
+    overflow: hidden;
+    width: 640px;
+    max-width: 100%;
+}
+
+form label{
+    display: none;
+}
+
+input, textarea{
+    border: 0px;
+    border-bottom: 1px solid #21243D; /*porque solo quiero el borde de abajo*/
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 32px;
+    font-size: 14px;
+    font-family: "Roboto", serif; /*no se porque no queda sino*/
+    color:#21243D;
+}
+
+::placeholder{
+    color: #8695A4;
+}
