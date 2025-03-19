@@ -1,0 +1,27 @@
+@import "variables";
+
+
+// Classes para colores
+.bg-white {
+    background-color: $color-white;
+}
+
+.bg-secondary {
+    background-color: $color-secondary !important;
+    p{
+        color: $color-secondary-lighter;
+    }
+}
+
+.bg-light {
+    background-color: $color-light !important;
+}
+
+
+//Clases para imagenes
+.img-wrapper{
+    img{
+        height: 100%;
+        max-width: 100%;
+    }
+}

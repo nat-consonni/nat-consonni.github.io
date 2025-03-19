@@ -1,0 +1,19 @@
+@import "variables";
+
+body {
+    font-family: $font-primary;
+    color: $color-dark !important;
+}
+
+a {
+    color: $color-primary;
+    &:hover {
+        color: $color-primary-darker;
+        transition: $hover-transitions;
+    }
+}
+
+// Clases especificas para texto
+.lead{
+    font-size: 1rem;
+}

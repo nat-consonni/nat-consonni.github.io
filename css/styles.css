@@ -1,216 +1,151 @@
-/* Importo los iconos de Boostrap */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+.btn-primary {
+  background-color: #FF6464;
+  border-color: #FF6464;
+}
+.btn-primary:hover {
+  background-color: #b54646;
+  border-color: #b54646;
+}
 
+.btn-outline-secondary {
+  border-color: #FF6464;
+  color: #FF6464;
+}
+.btn-outline-secondary:hover {
+  border-color: #ffc5c5;
+  background-color: #ffc5c5;
+  color: #FF6464;
+}
 
-/* Colors
-Primary FF6464
-Secondary 00A8CC
-Dark 21243D
-Light 8695A4
-White FFFFFF
-*/
-
-/* ****** General Elements ****** */
 body {
-    font-family: "Roboto", serif;
-    color: #383c58;
+  font-family: "Roboto", serif;
+  color: #21243D !important;
 }
 
-h1{
-    font-size: 44px;
-    font-weight: bold;
-    line-height: 60px;
+a {
+  color: #FF6464;
+}
+a:hover {
+  color: #b54646;
+  transition: all 0.2s ease-in-out;
 }
 
-h4{
-    margin: 0 0 8px 0;
-    font-size: 20px;
-    color: #21243D;
+.lead {
+  font-size: 1rem;
 }
 
-p{
-  font-size: 16px; /*nunca se si es mejor poenr esto aca y o en el body y que lo herede*/
-  color: #383c58;
-  line-height: 150%; /*en figma generalmente lo uso así, no se si es lo más optimo para web ? */
+.bg-white {
+  background-color: #FFFFFF;
+}
+
+.bg-secondary {
+  background-color: #00A8CC !important;
+}
+.bg-secondary p {
+  color: #B1F3FE;
+}
+
+.bg-light {
+  background-color: #EDF7FA !important;
+}
+
+.img-wrapper img {
+  height: 100%;
+  max-width: 100%;
+}
+
+.navbar {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 5px rgba(33, 36, 61, 0.04);
+  border-bottom: 1px solid rgba(33, 36, 61, 0.05);
+}
+
+.navbar-brand {
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 80px;
+  background: url(../img/logo.png) no-repeat left center/64px;
+  color: #00A8CC;
+}
+.navbar-brand span {
+  display: block;
+  margin-top: -4px;
+  font-size: 12px;
   font-weight: 400;
+  color: #21243D;
 }
 
-a{
-    color: #FF6464;
+.navbar-nav li a {
+  color: #21243D;
+  text-decoration: none;
 }
-a:hover{
-    color: #a84242;
+.navbar-nav li a:hover {
+  color: #046d84;
 }
-
-
-/* ************ Primary hero
-*******/
-.text-body-emphasis{
-    color: #383c58 !important;
-    font-size: 2.5rem;
-}
-.lead{
-    font-size: 1rem;
+.navbar-nav li a.active {
+  color: #00A8CC !important;
 }
 
-li{
-    line-height: 150%;
+.dotted-list {
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+.dotted-list li {
+  float: left;
+  text-align: center;
+  display: inline-block;
+  margin: 5px 8px;
+  line-height: 1.5;
 }
 
- /* ** custom rss in the footer ** */
-
- .facebook{
-    background-image: url(../img/icon-facebook.png);
-    background-repeat: no-repeat;
-    background-size: 16px;
- }
- .instagram{
-    background-image: url(../img/icon-instagram.png);
-    background-repeat: no-repeat;
-    background-size: 16px;
- }
- .linkedin{
-    background-image: url(../img/icion-linkedin.png);
-    background-repeat: no-repeat;
-    background-size: 16px;
- }
-
-/* ****** Custom Elements ****** */
-
-/* Navigation */
-.navbar{
-    background-color: #fff;
-    box-shadow: 0px 0px 5px #21243d0a;
-    border-bottom: 1px solid #8695a42d;
+.facebook,
+.instagram,
+.linkedin {
+  background-repeat: no-repeat;
+  background-size: 16px;
 }
 
-.navbar-brand{
-    font-size: 14px;
-    padding: 0px 0px 0px 80px;
-    background-image: url(../img/logo.png); /*tengo que ir para afuera de la carpeta*/
-    background-repeat: no-repeat;
-    background-size: 64px;
-    background-position: center left;
-    color: #00A8CC;
+.facebook {
+  background-image: url(../img/icon-facebook.png);
 }
 
-.navbar-brand span{
-    display: block;
-    font-size: 12px;
-    font-weight: 400;
-    color: #8695A4;
+.instagram {
+  background-image: url(../img/icon-instagram.png);
 }
 
-.navbar-nav li a{
-    display: inline-block;
-    color: #21243D;
-    text-decoration: none;
+.linkedin {
+  background-image: url(../img/icon-linkedin.png);
 }
 
-a.nav-link.active{
-    color: #00A8CC !important;
+form {
+  margin: 32px 0;
+  overflow: hidden;
+  width: 640px;
+  max-width: 100%;
 }
 
-.navbar-nav li a:hover{
-    color: #15768b !important;
+input,
+textarea {
+  border: 0;
+  border-bottom: 1px solid #21243D;
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 32px;
+  font-size: 14px;
+  font-family: "Roboto", serif;
+  color: #21243D;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #8695A4;
 }
 
-/* sections */
-
-section{
-    padding: 32px;
-}
-
-.banner{
-    text-align: center;
-}
-
-.banner p{
-    color: #024F5C;
-}
-
-/* general color styles */
-
-.bg-white{
-    background-color: #fff;
-}
-
-
-.bg-secondary{
-   background-color: #00A8CC !important; 
-}
-
-.bg-secondary p{
-    color: #B1F3FE;
-} /*porque quiero que todos los textos dentro del bg-secondary sean de este color*/
-
-.bg-light{
-    background-color: #EDF7FA !important;
-}
-
-
-/* primary button, con los colores que yo quiero */
-.btn-primary{
-    background-color: #FF6464;
-    border-color: #FF6464;
-}
-.btn-primary:hover{
-    background-color: #a84242;
-    border-color: #a84242;
-}
-
-/*images*/
-.img-wrapper{
-    display: inline-block;
-}
-.img-wrapper img{
-    height: 100%; /*porque me queda como cortada por el tamaño.. luego lo reviso si tengo tiempo*/
-    max-width: 100%;
-}
-
-
-/* special lists */
-.dotted-list{
-    display: inline-block;
-    overflow: hidden;
-    margin: 0px auto;
-    padding: 0px;
-    text-align: center;
-}
-.dotted-list li{
-    float: left;
-    text-align: center;
-    list-style: none;
-    display: inline-block;
-    margin: 5px 8px;
-    color: #21243D;
-}
-
-/* Contact Form 
-como ahora solo tengo un formualrio, voy aponer estilos genericos a los elementos, y no clases
-*/
-form{
-    margin: 32px 0px;
-    overflow: hidden;
-    width: 640px;
-    max-width: 100%;
-}
-
-form label{
-    display: none;
-}
-
-input, textarea{
-    border: 0px;
-    border-bottom: 1px solid #21243D; /*porque solo quiero el borde de abajo*/
-    padding: 12px;
-    width: 100%;
-    margin-bottom: 32px;
-    font-size: 14px;
-    font-family: "Roboto", serif; /*no se porque no queda sino*/
-    color:#21243D;
-}
-
-::placeholder{
-    color: #8695A4;
-}
+/*# sourceMappingURL=styles.css.map */
