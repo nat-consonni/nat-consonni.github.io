@@ -1,0 +1,119 @@
+@import "variables";
+@import "media";
+
+body {
+    font-family: $font-primary;
+    color: $color-dark !important;
+    background: $color-white;
+}
+
+// Classes para colores
+.bg-white {
+    background-color: $color-white;
+}
+
+.bg-secondary {
+    background-color: $color-secondary !important;
+    p{
+        color: $color-secondary-lighter;
+    }
+}
+
+.bg-dark{
+    background-color: $color-dark !important;
+}
+
+.bg-tetrary-dark{
+    background-color: $color-tetrary-darker !important;
+}
+
+//Clases para imagenes
+.img-wrapper{
+    img{
+        height: 100%;
+        max-width: 100%;
+    }
+}
+
+//Clases especificas para secciones 
+
+.hero{
+    @include respond("tablet"){
+        .btn{
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+//mi foto al principio
+.img-avatar-responsive{
+    @include respond("tablet") { 
+        img{
+            width:200px;
+            margin: 0 auto 16px;
+        }
+    }
+}
+
+
+//quise probar los transforms de css
+.section-skills{
+    background: $color-dark;
+    color: $color-white;
+    padding: ($default-padding/2);
+    .wrapper{
+        padding: ($default-padding/2);
+        background: $color-tetrary;
+        transform: rotate(1deg);
+        text-align: center;
+        margin: 0 -16px;
+        @include respond("tablet"){
+            margin: 0px;
+        }
+    }
+    ul{
+        overflow: hidden;
+        margin: 0px auto;
+        display: inline-block;
+        li{
+            display: inline-block;
+            padding: 0px 4px;
+        }
+    }
+}
+
+// Para la lista de proyectos
+.project-list-item{
+    padding-top: $default-padding;
+    padding-bottom: $default-padding;
+    border: 1px solid $color-gray;
+    border-radius: 12px;
+    h5{
+        font-weight: bold;
+        font-size: 1rem;
+    }
+}
+
+
+
+//feature work title
+.feature-work{
+    @include respond("tablet") { 
+        h2{
+            text-align: center;
+        }
+        .responsive-fixes{
+            display: block !important;
+            width: 100% !important;
+            text-align: center;
+            margin-top: 8px;
+        }
+    }
+}
+
+
+
+section{
+    animation: fade-in-up 0.6s forwards;
+}

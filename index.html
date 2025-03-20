@@ -20,9 +20,9 @@
     
     <!-- Navbar-->
     <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container d-flex justify-content-between">
+      <div class="container justify-content-between">
         <!-- Logo alineado a la izquierda -->
-        <a class="navbar-brand" href="#">Natalia Consonni<span>Senior Product Designer</span></a>
+        <a class="navbar-brand" href="#">Nat Consonni<span>| Full-stack designer - UI Developer</span></a>
     
         <!-- Botón colapsable en móviles -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@
               <a class="nav-link" href="pages/about-me.html">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/contact.html">Contact</a>
+              <a class="nav-link btn btn-darker" href="pages/contact.html">Contact me</a>
             </li>
           </ul>
         </div>
@@ -52,37 +52,28 @@
     <main> <!-- como lo tiene boostrap, usando este main para el contenido -->
 
       <!-- Hero, basado en los ejemplos de boostrap-->
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="img/natalia-consonni.png" class="d-block mx-lg-auto img-fluid rounded-circle" alt="Bootstrap Themes" width="500" height="360" loading="lazy">
+      <div class="container hero">
+        <div class="row align-items-center py-5">
+          <div class="col-sm-12 col-md-5 col-lg-5 img-avatar-responsive">
+            <img src="img/nat-consonni-senior-product-designer.png" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="663" height="660" loading="lazy">
           </div>
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi! I'm Nat,</br>Senior Product Designer</h1>
-            <p class="lead">With <strong>10 years of experience</strong> in crafting user-centered digital solutions, I specialize in transforming complex problems into intuitive, engaging experiences. I am passionate about bridging the gap between technology and people to create impactful, accessible solutions that drive success and growth for both users and businesses.</p>
+          <div class="col-sm-12 col-md-7 col-lg-7">
+            <h1 class="fw-bold home-hero-title mb-4">Full-stack Designer</br>- UI Developer</h1>
+            <p class="mb-4"><strong>10+ years of experience</strong> in crafting user-centered, data-driven digital solutions. With a passion for crafting seamless, high-impact experiences, I blend UX/UI design with front-end development to drive business growth and user engagement.</p>
+            
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a class="btn btn-primary px-4 me-md-2" target="_blank" href="pdf-files/product-designer-nat-consonni.pdf">Download resume</a><!-- con btn, le quiero dar estilo de button, con la clase primary le voy a dar los dif background colors-->
-              <a class="btn btn-outline-secondary px-4" href="pages/contact.html">Conctact me</a>
+              <a class="btn btn-primary btn-lg me-3" href="pages/contact.html">About me <i class="bi bi-arrow-right-short"></i></a>
+              <a class="btn btn-outline-secondary btn-lg" target="_blank" href="pdf-files/Nat_Consonni_FullStack_Designer_CV_2025.pdf">Download resume <i class="bi bi-download"></i></a>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Banner Section, como lo pone Boostrap -->
-      <section class="bg-secondary text-light text-center py-5">
-        <div class="container">
-          <h3>Ready to elevate your product's user experience with solutions that truly resonate?</h3>
-          <p>As a Senior Product Designer, I transform user insights into powerful digital solutions that not only elevate your product’s experience </br> but also make technology more accessible and human-centered.</p>
-          <a href="pages/my-work.html" class="btn btn-primary mt-3">My work</a>
-        </div>
-      </section>
-
       <!-- Banner Section secundario, como lo pone Boostrap -->
-      <section class="bg-light text-center py-4">
-        <div class="container">
-          <!--<h4>Key Skills</h4>-->
-          <ul class="dotted-list align-items-center"><!-- voy a probar de hacer este banner de los mockups rompiendo un poco las propiedades default de las ul-->
-            <li>concept development</li><!-- me acuerdo que había lo que se llama pseudo-elemnts, tal vez con eso les agrego el punto-->
+      <section class="section-skills">
+        <div class="wrapper"><!-- necesito este div para rotarlo-->
+          <ul class="list-unstyled align-items-center">
+            <li>concept development</li>
             <li>·</li>
             <li>prototyping</li>
             <li>·</li>
@@ -93,76 +84,129 @@
             <li>testing and validation</li>
             <li>·</li>
             <li>user research</li>
+            <li>·</li>
             <li>design systems</li>
+            <li>·</li>
             <li>remote collaboration</li>
           </ul>
         </div>
       </section>
 
-    <!-- Featured work -->
-    <section class="section">
-      <div class="container">
-        <h3>Featured work</h3>
+      <section class="container py-5 px-5">
+        <h2 class="px-5 under-scope mb-4">About me_</h2>
+        <div class="row justify-content-end">
+          <div class="col-10 col-lg-10 col-md-10 col-sm-12">
+            <p>I am a <strong>problem solver by design</strong>. With <strong>10+ years of experience</strong>, I’ve helped startups and businesses transform complex challenges into intuitive, visually engaging solutions. By <strong>leveraging user research, data insights, and design systems</strong>, I create experiences that are not just beautiful—but <strong>effective and scalable</strong>.</p>
+            <a class="btn btn-primary btn-lg my-4" href="pages/contact.html">About me <i class="bi bi-arrow-right-short"></i></a>
+          </div>
+        </div>
+      </section>
 
-        <ul class="list-unstyled"> <!-- de Boostrap-->
-          <li>
-            <div class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
-              <div class="img-wrapper rounded">
-                <img class="rounded" src="img/list-design-audit.png"/>
+      <!-- Banner Section, como lo pone Boostrap -->
+      <section class="bg-dark text-light text-center py-5 mb-4">
+        <div class="container">
+          <h3 class="mb-4">Ready to elevate your product's user experience with solutions that truly resonate?</h3>
+          <p>As a Senior Product Designer, I transform user insights into powerful digital solutions that not only elevate your product’s experience </br> but also make technology more accessible and human-centered.</p>
+          <a href="pages/my-work.html" class="btn btn-primary mt-3 btn-lg">My work <i class="bi bi-arrow-right-short"></i></a>
+        </div>
+      </section>
+
+
+
+    <!-- Featured work -->
+    <section class="section py-4 mt-4 mb-4 feature-work">
+      <div class="container">
+
+        <div class="row mb-4 justify-content-center">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <h2>Recent projects_</h2>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 d-flex flex-row-reverse responsive-fixes">
+            <a href="pages/my-work.html" class="btn btn-outline-secondary btn-lg">View all <i class="bi bi-arrow-right-short"></i></a>
+          </div>
+        </div>
+        
+        <div class="row justify-content-center mb-4">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            
+            <div class="row project-list-item mb-4">
+              <div class="col-sm-12 col-md-3 col-lg-3 img-wrapper">
+                <img class="rounded" src="img/list-case-of-study-1.png"/>
               </div>
-              <div class="col-lg-9">
-                <h5 class="mb-0">Design Audit</h5>
-                <small class="text-body-secondary">UI Design - 2025</small>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi... <a href="pages/project-details.html">read more</a></p> 
+              <div class="col-sm-12 col-md-9 col-lg-9">
+                <h5 class="mb-3">Mobile App Audit & Redesign Proposal</h5>
+                <p>By identifying key usability issues and implementing targeted design improvements, we aim to create a seamless and accessible user experience.</p> 
+                <a href="pages/project-details.html">Read more <i class="bi bi-arrow-right-short"></i></a>
               </div>
             </div>
-          </li>
-          <li>
-            <div class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
-              <div class="img-wrapper rounded">
-                <img class="rounded" src="img/list-mobile-redesign.png"/>
+
+            <div class="row project-list-item mb-4">
+              <div class="col-sm-12 col-md-3 col-lg-3 img-wrapper">
+                <img class="rounded" src="img/list-case-of-study-2.png"/>
               </div>
-              <div class="col-lg-9">
-                <h5 class="mb-0">Mobile re-design</h5>
-                <small class="text-body-secondary">UX/UI Design - 2024</small>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi... <a href="pages/project-details.html">read more</a></p> 
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
-              <div class="img-wrapper rounded">
-                <img class="rounded" src="img/list-user-research.jpg"/>
-              </div>
-              <div class="col-lg-9">
-                <h5 class="mb-0">New feature discoverability</h5>
-                <small class="text-body-secondary">User Research - 2025</small>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi... <a href="pages/project-details.html">read more</a></p> 
+              <div class="col-sm-12 col-md-9 col-lg-9">
+                <h5 class="mb-3">Website Redesign for an E-Commerce Platform</h5>
+                <p>Post-redesign analytics showed a 25% decrease in cart abandonment and a 40% increase in completed purchases, validating the impact of UX optimization.</p> 
+                <a href="pages/project-details.html">Read more <i class="bi bi-arrow-right-short"></i></a>
               </div>
             </div>
-          </li>
-          <li class="p-4">
-            <p class="text-center border-top p-4">There's more to see! Check the work I'm most proud of <a href="pages/my-work.html">here</a>.</p>
-          </li>
-        </ul>
+
+            <div class="row project-list-item mb-4">
+              <div class="col-sm-12 col-md-3 col-lg-3 img-wrapper">
+                <img class="rounded" src="img/list-case-of-study-3.png"/>
+              </div>
+              <div class="col-sm-12 col-md-9 col-lg-9">
+                <h5 class="mb-3">Improving Feature Discoverability in a SaaS Dashboard</h5>
+                <p>We redesigned the dashboard layout with contextual tooltips, an improved search function, and a guided onboarding experience to leverage the platform’s full capabilities without frustration.</p> 
+                <a href="pages/project-details.html">Read more <i class="bi bi-arrow-right-short"></i></a>
+              </div>
+            </div>
+            
+          </div>
+          
+        </div>
+
       </div>
     </section>
-    
 
     <!-- Banner Section, como lo pone Boostrap -->
-    <section class="bg-secondary text-light text-center py-5">
+    <section class="bg-dark text-light text-center py-5">
       <div class="container">
-        <h3>Curious about how I blend creativity with strategy to craft impactful digital solutions?</h3>
+        <h3 class="mb-4">Curious about how I blend creativity with strategy to craft impactful digital solutions?</h3>
         <p>Dive into my journey, values and approach to design. Learn More about what drives me and how I bring technology closer to people.</p>
-        <a href="pages/about-me.html" class="btn btn-primary">About me</a>
+        <a href="pages/about-me.html" class="btn btn-primary mt-3 btn-lg">About me <i class="bi bi-arrow-right-short"></i></a>
       </div>
     </section>
 
+
+          <!-- Banner Section secundario, como lo pone Boostrap -->
+          <section class="section-skills">
+            <div class="wrapper"><!-- necesito este div para rotarlo-->
+              <ul class="list-unstyled align-items-center">
+                <li>concept development</li>
+                <li>·</li>
+                <li>prototyping</li>
+                <li>·</li>
+                <li>interface design</li>
+                <li>·</li>
+                <li>user experience</li>
+                <li>·</li>
+                <li>testing and validation</li>
+                <li>·</li>
+                <li>user research</li>
+                <li>·</li>
+                <li>design systems</li>
+                <li>·</li>
+                <li>remote collaboration</li>
+              </ul>
+            </div>
+          </section>
+
     <!-- Banner Section secundario, como lo pone Boostrap -->
-    <section class="bg-light text-center py-4">
+    <section class="text-center py-5 my-2">
       <div class="container">
         <h3>Thanks for stopping by!</h3>
-        <p>Feel free to download my resume or check out my LinkedIn profile—I'd love to connect. If you have any questions or just want to talk about bridging the gap between people and technology, <a href="mailto:nat.consonni@gmail.com">shoot me an email</a>.</p>
+        <p>Feel free to download my resume or check out my LinkedIn profile—I'd love to connect.<br>If you have any questions or just want to talk about bridging the gap between people and technology, <a href="mailto:nat.consonni@gmail.com">shoot me an email</a>.</p>
       </div>
     </section>
 
@@ -174,7 +218,7 @@
           <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
             <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
           </a>
-          <span class="mb-3 mb-md-0 text-body-secondary">Natalia Consonni | Copyright © 2025 All rights reserved</span>
+          <span class="mb-3 mb-md-0 text-body-secondary">Nat Consonni | Copyright © 2025 All rights reserved</span>
         </div>
     
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">

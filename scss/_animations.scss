@@ -1,0 +1,31 @@
+@import "variables";
+
+
+// esto para hacer girar los arrows the los botones
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  
+  
+  @mixin spin-animation($duration: 0.5s, $timing: ease-in-out) {
+    animation: spin $duration $timing;
+  }
+
+
+
+  //esto para que las secciones aparezcan mas smooth
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

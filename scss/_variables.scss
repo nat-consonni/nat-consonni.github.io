@@ -1,0 +1,31 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+//Colors
+$color-primary-lighter: #9bbde9;
+$color-primary: #4392F7;
+$color-primary-darker: #2362b4;
+
+$color-secondary-lighter: #eed394;
+$color-secondary: #F6C44C;
+$color-secondary-darker: #ab8224;
+
+$color-tetrary-lighter:#822f35;
+$color-tetrary:#EB5963;
+$color-tetrary-darker: #9a3239;
+
+
+$color-dark: #131313;
+$color-gray: #E3E1DD;
+$color-light: #EDF7FA;
+$color-white: #FBF9F5;
+
+//Fonts
+$font-primary: "Roboto", sans-serif;
+$font-secondary: "Lora", serif;
+
+//Estilos generales para mantener coherencia
+$hover-transitions: all 0.2s ease-in-out;
+$default-box-shadow: 0 0 5px rgba($color-dark, 0.04);
+$default-border-radius: 100px;
+$default-padding: 16px;

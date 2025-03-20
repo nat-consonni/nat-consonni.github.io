@@ -1,0 +1,37 @@
+@import "variables";
+@import "media";
+@import "animations";
+
+.btn{
+    border-radius: $default-border-radius;
+
+    // para las animaciones, quiero que en hover el icono del boton gire una vez
+    &:hover i{
+        display: inline-block;
+        @include spin-animation (0.5s, ease-in-out);
+    }
+
+}
+
+//Primary button
+.btn-primary {
+    background-color: $color-primary;
+    border-color: $color-primary;
+
+    &:hover {
+        background-color: $color-primary-darker;
+        border-color: $color-primary-darker;
+    }
+}
+
+//Secondary button
+.btn-outline-secondary{
+    border-color: $color-primary;
+    color: $color-primary;
+
+    &:hover {
+        border-color: $color-primary-lighter;
+        background-color: $color-primary-lighter;
+        color: $color-primary-darker;
+    }
+}

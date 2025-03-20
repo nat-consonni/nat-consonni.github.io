@@ -1,0 +1,23 @@
+@import "variables";
+@import "media";
+
+.facebook,
+.instagram,
+.linkedin {
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+
+.facebook {
+    background-image: url(../img/icon-facebook.png);
+}
+.instagram {
+    background-image: url(../img/icon-instagram.png);
+}
+.linkedin {
+    background-image: url(../img/icon-linkedin.png);
+}
+
+footer{
+    border-top: 1px solid $color-gray !important;
+}

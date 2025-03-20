@@ -1,0 +1,51 @@
+@import "variables";
+@import "media";
+
+.navbar{
+    background-color: $color-white;
+}
+
+// este no lo nesteo porque sino el selector me queda larguisimo
+.navbar-brand {
+    font-weight: bold;
+    color: $color-dark;
+    span {
+        display: inline-block;
+        margin-left: 6px;
+        font-weight: 300;
+
+        @include respond("tablet") { 
+            display: block;
+            margin-left: -3px;
+            font-size: 0.9rem;
+        }
+
+
+    }
+}
+.navbar-nav {
+    li{
+        a {
+            &:hover {
+                color: $color-primary-darker;
+             }
+            &.active{
+                color: $color-primary !important;
+            }
+            &.btn-darker{
+                background-color: $color-dark;
+                color: $color-white !important;
+                padding: 6px;
+                margin-left: 32px;
+            }
+        }
+    }
+    @include respond("tablet") { 
+        text-align: end;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        .nav-link.btn{
+            display: inline-block;
+        }
+    }
+}

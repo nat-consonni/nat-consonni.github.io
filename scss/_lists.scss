@@ -1,0 +1,17 @@
+
+@use "variables" as *;
+
+.dotted-list {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+
+    li {
+        float: left;
+        text-align: center;
+        display: inline-block;
+        margin: 5px 8px;
+        line-height: 1.5;
+    }
+}
