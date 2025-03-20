@@ -1,58 +1,110 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+.btn {
+  border-radius: 100px;
+}
+
 .btn-primary {
-  background-color: #FF6464;
-  border-color: #FF6464;
+  background-color: #4392F7;
+  border-color: #4392F7;
 }
 .btn-primary:hover {
-  background-color: #b54646;
-  border-color: #b54646;
+  background-color: #2362b4;
+  border-color: #2362b4;
 }
 
 .btn-outline-secondary {
-  border-color: #FF6464;
-  color: #FF6464;
+  border-color: #4392F7;
+  color: #4392F7;
 }
 .btn-outline-secondary:hover {
-  border-color: #ffc5c5;
-  background-color: #ffc5c5;
-  color: #FF6464;
-}
-
-body {
-  font-family: "Roboto", serif;
-  color: #21243D !important;
+  border-color: #9bbde9;
+  background-color: #9bbde9;
+  color: #2362b4;
 }
 
 a {
-  color: #FF6464;
+  color: #4392F7;
 }
 a:hover {
-  color: #b54646;
+  color: #2362b4;
   transition: all 0.2s ease-in-out;
+}
+
+h1, h2, h3 {
+  font-family: "Lora", serif;
+  font-weight: bold;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.home-hero-title {
+  font-size: 28px;
+}
+@media (min-width: 768px) {
+  .home-hero-title {
+    font-size: 42px;
+  }
+}
+@media (min-width: 1200px) {
+  .home-hero-title {
+    font-size: 56px;
+  }
 }
 
 .lead {
   font-size: 1rem;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  color: #131313 !important;
+  background: #FBF9F5;
+}
+
 .bg-white {
-  background-color: #FFFFFF;
+  background-color: #FBF9F5;
 }
 
 .bg-secondary {
-  background-color: #00A8CC !important;
+  background-color: #F6C44C !important;
 }
 .bg-secondary p {
-  color: #B1F3FE;
+  color: #eed394;
 }
 
-.bg-light {
-  background-color: #EDF7FA !important;
+.bg-dark {
+  background-color: #131313 !important;
+}
+
+.bg-tetrary-dark {
+  background-color: #9a3239 !important;
 }
 
 .img-wrapper img {
@@ -60,36 +112,112 @@ a:hover {
   max-width: 100%;
 }
 
+@media (max-width: 991px) {
+  .hero .btn {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .img-avatar-responsive img {
+    width: 200px;
+    margin: 0 auto 16px;
+  }
+}
+
+.section-skills {
+  background: #131313;
+  color: #FBF9F5;
+  padding: 8px;
+}
+.section-skills .wrapper {
+  padding: 8px;
+  background: #EB5963;
+  transform: rotate(1deg);
+  text-align: center;
+  margin: 0 -16px;
+}
+@media (max-width: 991px) {
+  .section-skills .wrapper {
+    margin: 0px;
+  }
+}
+.section-skills ul {
+  overflow: hidden;
+  margin: 0px auto;
+  display: inline-block;
+}
+.section-skills ul li {
+  display: inline-block;
+  padding: 0px 4px;
+}
+
+.project-list-item {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: 1px solid #E3E1DD;
+  border-radius: 12px;
+}
+.project-list-item h5 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+@media (max-width: 991px) {
+  .feature-work h2 {
+    text-align: center;
+  }
+  .feature-work .responsive-fixes {
+    display: block !important;
+    width: 100% !important;
+    text-align: center;
+    margin-top: 8px;
+  }
+}
+
 .navbar {
-  background-color: #FFFFFF;
-  box-shadow: 0 0 5px rgba(33, 36, 61, 0.04);
-  border-bottom: 1px solid rgba(33, 36, 61, 0.05);
+  background-color: #FBF9F5;
 }
 
 .navbar-brand {
-  font-size: 16px;
   font-weight: bold;
-  padding-left: 80px;
-  background: url(../img/logo.png) no-repeat left center/64px;
-  color: #00A8CC;
+  color: #131313;
 }
 .navbar-brand span {
-  display: block;
-  margin-top: -4px;
-  font-size: 12px;
-  font-weight: 400;
-  color: #21243D;
+  display: inline-block;
+  margin-left: 6px;
+  font-weight: 300;
+}
+@media (max-width: 991px) {
+  .navbar-brand span {
+    display: block;
+    margin-left: -3px;
+    font-size: 0.9rem;
+  }
 }
 
-.navbar-nav li a {
-  color: #21243D;
-  text-decoration: none;
-}
 .navbar-nav li a:hover {
-  color: #046d84;
+  color: #2362b4;
 }
 .navbar-nav li a.active {
-  color: #00A8CC !important;
+  color: #4392F7 !important;
+}
+.navbar-nav li a.btn-darker {
+  background-color: #131313;
+  color: #FBF9F5 !important;
+  padding: 6px;
+  margin-left: 32px;
+}
+@media (max-width: 991px) {
+  .navbar-nav {
+    text-align: end;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .navbar-nav .nav-link.btn {
+    display: inline-block;
+  }
 }
 
 .dotted-list {
@@ -125,6 +253,10 @@ a:hover {
   background-image: url(../img/icon-linkedin.png);
 }
 
+footer {
+  border-top: 1px solid #E3E1DD !important;
+}
+
 form {
   margin: 32px 0;
   overflow: hidden;
@@ -135,17 +267,17 @@ form {
 input,
 textarea {
   border: 0;
-  border-bottom: 1px solid #21243D;
+  border-bottom: 1px solid #131313;
   padding: 12px;
   width: 100%;
   margin-bottom: 32px;
   font-size: 14px;
-  font-family: "Roboto", serif;
-  color: #21243D;
+  font-family: "Roboto", sans-serif;
+  color: #131313;
 }
 input::placeholder,
 textarea::placeholder {
-  color: #8695A4;
+  color: #E3E1DD;
 }
 
 /*# sourceMappingURL=styles.css.map */

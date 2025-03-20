@@ -1,5 +1,9 @@
 @import "variables";
+@import "media";
 
+.btn{
+    border-radius: $default-border-radius;
+}
 
 //Primary button
 .btn-primary {
@@ -20,6 +24,6 @@
     &:hover {
         border-color: $color-primary-lighter;
         background-color: $color-primary-lighter;
-        color: $color-primary;
+        color: $color-primary-darker;
     }
 }

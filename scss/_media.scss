@@ -1,0 +1,21 @@
+@import "variables";
+
+// vi esta forma de usar mixins para los media queries y quise probar
+$breakpoints: (
+  "mobile": 480px,
+  "tablet-sm": 767px,
+  "tablet": 991px,
+  "laptop": 1024px,
+  "desktop": 1440px
+);
+
+
+@mixin respond($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (max-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  } @else {
+    @warn "⚠️ Breakpoint '#{$breakpoint}' not found!";
+  }
+}

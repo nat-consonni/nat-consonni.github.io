@@ -1,43 +1,51 @@
 @import "variables";
+@import "media";
 
 .navbar{
     background-color: $color-white;
-    box-shadow: $default-box-shadow;
-    border-bottom: 1px solid rgba($color-dark, 0.05);
 }
 
 // este no lo nesteo porque sino el selector me queda larguisimo
 .navbar-brand {
-    font-size: 16px;
     font-weight: bold;
-    padding-left: 80px;
-    background: url(../img/logo.png) no-repeat left center / 64px;
-    color: $color-secondary;
+    color: $color-dark;
     span {
-        display: block;
-        margin-top: -4px;
-        font-size: 12px;
-        font-weight: 400;
-        color: $color-dark;
+        display: inline-block;
+        margin-left: 6px;
+        font-weight: 300;
+
+        @include respond("tablet") { 
+            display: block;
+            margin-left: -3px;
+            font-size: 0.9rem;
+        }
+
+
     }
 }
-
 .navbar-nav {
     li{
         a {
-            color: $color-dark;
-            text-decoration: none;
             &:hover {
-                color: $color-secondary-darker;
+                color: $color-primary-darker;
              }
             &.active{
-                color: $color-secondary !important;
+                color: $color-primary !important;
+            }
+            &.btn-darker{
+                background-color: $color-dark;
+                color: $color-white !important;
+                padding: 6px;
+                margin-left: 32px;
             }
         }
     }
+    @include respond("tablet") { 
+        text-align: end;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        .nav-link.btn{
+            display: inline-block;
+        }
+    }
 }
-
-
-//a.nav-link.active {
-//    color: $secondary !important;
-//}

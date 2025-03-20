@@ -1,3 +1,6 @@
+@import "variables";
+@import "media";
+
 .facebook,
 .instagram,
 .linkedin {
@@ -13,4 +16,8 @@
 }
 .linkedin {
     background-image: url(../img/icon-linkedin.png);
+}
+
+footer{
+    border-top: 1px solid $color-gray !important;
 }

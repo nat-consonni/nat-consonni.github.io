@@ -1,9 +1,5 @@
 @import "variables";
-
-body {
-    font-family: $font-primary;
-    color: $color-dark !important;
-}
+@import "media";
 
 a {
     color: $color-primary;
@@ -13,7 +9,35 @@ a {
     }
 }
 
+h1, h2, h3{
+    font-family: $font-secondary;
+    font-weight: bold;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+
 // Clases especificas para texto
+
+//esto me gustaria optimizarlo a futuro, pero ahora queria darle un tratamiento especial al h1 del index
+@mixin responsive-font($min-size, $max-size) {
+    font-size: $min-size;
+
+    @media (min-width: 768px) {
+        font-size: ($min-size + $max-size) / 2;
+    }
+
+    @media (min-width: 1200px) {
+        font-size: $max-size;
+    }
+}
+.home-hero-title{
+    @include responsive-font(28px, 56px);
+}
+
+
 .lead{
     font-size: 1rem;
 }
