@@ -1,18 +1,16 @@
 @import "variables";
 @import "media";
 
-.navbar{
-    background-color: $color-white;
-}
 
-// este no lo nesteo porque sino el selector me queda larguisimo
 .navbar-brand {
-    font-weight: bold;
-    color: $color-dark;
+    font-weight: $font-weight-bold;
+    color: $color-black;
+    &:hover{
+        background-color: $color-white;
+    }
     span {
-        display: inline-block;
-        margin-left: 6px;
-        font-weight: 300;
+        font-weight: $font-weight-normal;
+        font-size: $font-size-small;
 
         @include respond("tablet") { 
             display: block;
@@ -26,17 +24,41 @@
 .navbar-nav {
     li{
         a {
+            font-weight: $font-weight-semi;
+            color: $color-black;
+            position: relative;
+            margin-right: 1rem;
+            &:not(.btn)::after{
+                content: " ";
+                display: block;
+                width: 1.5rem;
+                height: 2px;
+                position: absolute;
+                bottom: 0.25rem;
+                left: -0.5rem;
+                background-color: $color-black;
+                opacity: 0;
+            }
+            
             &:hover {
-                color: $color-primary-darker;
+                &::after{
+                    left: 0.5rem;
+                    opacity: 1;
+                    transition: 0.15s; 
+                }
              }
             &.active{
-                color: $color-primary !important;
+                color: $color-gray !important;
+                border-bottom-color: $color-gray;
+                &::after{
+                    left: 0.5rem;
+                    background-color: $color-gray;
+                    opacity: 1;
+                }
             }
-            &.btn-darker{
-                background-color: $color-dark;
+            &.btn{
                 color: $color-white !important;
-                padding: 6px;
-                margin-left: 32px;
+                padding: 0 0.75rem !important;
             }
         }
     }

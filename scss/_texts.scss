@@ -2,25 +2,55 @@
 @import "media";
 
 a {
-    color: $color-primary;
+    color: $color-interactive; 
     &:hover {
-        color: $color-primary-darker;
+        color: $color-interactive-hover;
+        background: $color-primary-lighter;
         transition: $hover-transitions;
     }
 }
 
-h1, h2, h3{
-    font-family: $font-secondary;
-    font-weight: bold;
+h1, h2, h3, h4{
+    color: $color-black;
 }
 
-h2{
+h1{
+    font-size: 3rem;
+    font-weight: $font-weight-bold;
+    position: relative;
+    & span{
+        display: inline-block;
+        position: absolute;
+        left: -2.25rem;
+    }
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: $font-weight-bold;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+
+// Text styles
+
+.text-uppercase{
     text-transform: uppercase;
 }
 
+.text-sm{
+    font-size: 0.75rem;
+}
 
-// Clases especificas para texto
+.text-md{
+    font-size: 0.9rem;
+}
 
+
+
+//REVISAR
 //esto me gustaria optimizarlo a futuro, pero ahora queria darle un tratamiento especial al h1 del index
 @mixin responsive-font($min-size, $max-size) {
     font-size: $min-size;

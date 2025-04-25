@@ -3,13 +3,17 @@
 
 body {
     font-family: $font-primary;
-    color: $color-dark !important;
+    color: $color-gray;
     background: $color-white;
 }
 
-// Classes para colores
+// Background classes
 .bg-white {
     background-color: $color-white;
+}
+
+.bg-black{
+    background-color: $color-black !important;
 }
 
 .bg-secondary {
@@ -19,12 +23,30 @@ body {
     }
 }
 
-.bg-dark{
-    background-color: $color-dark !important;
+// Text classes
+.color-gray{
+    color: $color-gray;
 }
 
-.bg-tetrary-dark{
-    background-color: $color-tetrary-darker !important;
+.color-light{
+    color: $color-light;
+}
+
+.color-white{
+    color: $color-white;
+}
+
+//Border classes
+.border{
+    border-color: $color-light !important;
+}
+
+// Hover effects
+.hover-bg-light{
+    &:hover{
+        background-color: lighten($color-light, 10%);
+        transition: all;
+    }
 }
 
 //Clases para imagenes
@@ -35,7 +57,7 @@ body {
     }
 }
 
-//Clases especificas para secciones 
+// Section-specific classes
 
 .hero{
     @include respond("tablet"){
@@ -57,31 +79,13 @@ body {
 }
 
 
-//quise probar los transforms de css
-.section-skills{
-    background: $color-dark;
-    color: $color-white;
-    padding: ($default-padding/2);
-    .wrapper{
-        padding: ($default-padding/2);
-        background: $color-tetrary;
-        transform: rotate(1deg);
-        text-align: center;
-        margin: 0 -16px;
-        @include respond("tablet"){
-            margin: 0px;
-        }
-    }
-    ul{
-        overflow: hidden;
-        margin: 0px auto;
-        display: inline-block;
-        li{
-            display: inline-block;
-            padding: 0px 4px;
-        }
-    }
-}
+// revisar arriba
+
+//
+
+
+
+
 
 // Para la lista de proyectos
 .project-list-item{
@@ -116,4 +120,60 @@ body {
 
 section{
     animation: fade-in-up 0.6s forwards;
+}
+
+
+//Icons
+.tools-list{
+    li{
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 1.5rem;
+        height: 1.5rem;
+        overflow: hidden;
+        height: fit-content;
+        color: transparent;
+        &.mixpanel{
+            background-image: url(../img/icons/mixpanel.png);
+        }
+        &.fullstory{
+            background-image: url(../img/icons/fullstory.png);
+        }
+        &.dovetail{
+            background-image: url(../img/icons/dovetail.png);
+        }
+        &.g-documents{
+            background-image: url(../img/icons/documents.png);
+        }
+        &.g-sheets{
+            background-image: url(../img/icons/sheets.png);
+        }
+        &.figma{
+            background-image: url(../img/icons/figma.png);
+        }
+        &.miro{
+            background-image: url(../img/icons/miro.png);
+        }
+        &.jira{
+            background-image: url(../img/icons/jira.png);
+        }
+        &.html{
+            background-image: url(../img/icons/html.png);
+        }
+        &.github-white{
+            background-image: url(../img/icons/github-white.png);
+        }
+        &.nextjs{
+            background-image: url(../img/icons/next.png);
+        }
+        &.react{
+            background-image: url(../img/icons/react.png);
+ 
+        }
+        &.angular{
+            background-image: url(../img/icons/angular.png);
+
+        }
+    }
 }

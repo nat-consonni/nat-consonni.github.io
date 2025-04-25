@@ -1,0 +1,22 @@
+@import "variables";
+@import "media";
+
+.comments-carousel{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    @media (min-width: 960px) {
+        width: 60%;
+    }
+    .carousel-indicators{
+        bottom: -1.5rem;
+        [data-bs-target]{
+            background-color: $color-gray;
+        }
+    }
+    .bi{
+    //    font-size: 1.5rem;
+        margin-right: 0.25rem;
+    }
+}

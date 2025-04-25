@@ -1,51 +1,33 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(-360deg);
-  }
-}
-@keyframes fade-in-up {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -67,45 +49,96 @@
 .btn {
   border-radius: 100px;
 }
-.btn:hover i {
-  display: inline-block;
-  animation: spin 0.5s ease-in-out;
-}
 
 .btn-primary {
-  background-color: #4392F7;
-  border-color: #4392F7;
+  background-color: #212121;
+  border-color: #212121;
 }
 .btn-primary:hover {
-  background-color: #2362b4;
-  border-color: #2362b4;
+  background-color: #616161;
+  border-color: #616161;
 }
 
-.btn-outline-secondary {
-  border-color: #4392F7;
-  color: #4392F7;
+.btn-link {
+  color: #01579B;
 }
-.btn-outline-secondary:hover {
-  border-color: #9bbde9;
-  background-color: #9bbde9;
-  color: #2362b4;
+.btn-link:hover {
+  background: rgb(207.3076923077, 233.7692307692, 254.6923076923);
+}
+
+.btn-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  height: fit-content;
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  background-position: center;
+}
+.btn-icon a {
+  color: transparent !important;
+}
+.btn-icon a:hover {
+  background-color: transparent !important;
+}
+.btn-icon.linkedin {
+  background-image: url(../img/icons/linkedin.png);
+  background-size: 20px;
+}
+.btn-icon.github {
+  background-image: url(../img/icons/github.png);
+  background-size: 24px;
+}
+.btn-icon.slack {
+  background-image: url(../img/icons/slack.png);
+}
+.btn-icon.gmail {
+  background-image: url(../img/icons/gmail.png);
 }
 
 a {
-  color: #4392F7;
+  color: #01579B;
 }
 a:hover {
-  color: #2362b4;
+  color: rgb(0.5096153846, 44.3365384615, 78.9903846154);
+  background: rgb(207.3076923077, 233.7692307692, 254.6923076923);
   transition: all 0.2s ease-in-out;
 }
 
-h1, h2, h3 {
-  font-family: "Lora", serif;
-  font-weight: bold;
+h1, h2, h3, h4 {
+  color: #212121;
 }
 
-h2 {
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  position: relative;
+}
+h1 span {
+  display: inline-block;
+  position: absolute;
+  left: -2.25rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+.text-uppercase {
   text-transform: uppercase;
+}
+
+.text-sm {
+  font-size: 0.75rem;
+}
+
+.text-md {
+  font-size: 0.9rem;
 }
 
 .home-hero-title {
@@ -127,13 +160,17 @@ h2 {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  color: #131313 !important;
-  background: #FBF9F5;
+  font-family: "Inter", sans-serif;
+  color: #616161;
+  background: #FFFFFF;
 }
 
 .bg-white {
-  background-color: #FBF9F5;
+  background-color: #FFFFFF;
+}
+
+.bg-black {
+  background-color: #212121 !important;
 }
 
 .bg-secondary {
@@ -143,12 +180,25 @@ body {
   color: #eed394;
 }
 
-.bg-dark {
-  background-color: #131313 !important;
+.color-gray {
+  color: #616161;
 }
 
-.bg-tetrary-dark {
-  background-color: #9a3239 !important;
+.color-light {
+  color: #E0E0E0;
+}
+
+.color-white {
+  color: #FFFFFF;
+}
+
+.border {
+  border-color: #E0E0E0 !important;
+}
+
+.hover-bg-light:hover {
+  background-color: rgb(249.5, 249.5, 249.5);
+  transition: all;
 }
 
 .img-wrapper img {
@@ -170,37 +220,10 @@ body {
   }
 }
 
-.section-skills {
-  background: #131313;
-  color: #FBF9F5;
-  padding: 8px;
-}
-.section-skills .wrapper {
-  padding: 8px;
-  background: #EB5963;
-  transform: rotate(1deg);
-  text-align: center;
-  margin: 0 -16px;
-}
-@media (max-width: 991px) {
-  .section-skills .wrapper {
-    margin: 0px;
-  }
-}
-.section-skills ul {
-  overflow: hidden;
-  margin: 0px auto;
-  display: inline-block;
-}
-.section-skills ul li {
-  display: inline-block;
-  padding: 0px 4px;
-}
-
 .project-list-item {
   padding-top: 16px;
   padding-bottom: 16px;
-  border: 1px solid #E3E1DD;
+  border: 1px solid #616161;
   border-radius: 12px;
 }
 .project-list-item h5 {
@@ -224,18 +247,66 @@ section {
   animation: fade-in-up 0.6s forwards;
 }
 
-.navbar {
-  background-color: #FBF9F5;
+.tools-list li {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  height: fit-content;
+  color: transparent;
+}
+.tools-list li.mixpanel {
+  background-image: url(../img/icons/mixpanel.png);
+}
+.tools-list li.fullstory {
+  background-image: url(../img/icons/fullstory.png);
+}
+.tools-list li.dovetail {
+  background-image: url(../img/icons/dovetail.png);
+}
+.tools-list li.g-documents {
+  background-image: url(../img/icons/documents.png);
+}
+.tools-list li.g-sheets {
+  background-image: url(../img/icons/sheets.png);
+}
+.tools-list li.figma {
+  background-image: url(../img/icons/figma.png);
+}
+.tools-list li.miro {
+  background-image: url(../img/icons/miro.png);
+}
+.tools-list li.jira {
+  background-image: url(../img/icons/jira.png);
+}
+.tools-list li.html {
+  background-image: url(../img/icons/html.png);
+}
+.tools-list li.github-white {
+  background-image: url(../img/icons/github-white.png);
+}
+.tools-list li.nextjs {
+  background-image: url(../img/icons/next.png);
+}
+.tools-list li.react {
+  background-image: url(../img/icons/react.png);
+}
+.tools-list li.angular {
+  background-image: url(../img/icons/angular.png);
 }
 
 .navbar-brand {
-  font-weight: bold;
-  color: #131313;
+  font-weight: 700;
+  color: #212121;
+}
+.navbar-brand:hover {
+  background-color: #FFFFFF;
 }
 .navbar-brand span {
-  display: inline-block;
-  margin-left: 6px;
-  font-weight: 300;
+  font-weight: normal;
+  font-size: 0.75rem;
 }
 @media (max-width: 991px) {
   .navbar-brand span {
@@ -245,17 +316,40 @@ section {
   }
 }
 
-.navbar-nav li a:hover {
-  color: #2362b4;
+.navbar-nav li a {
+  font-weight: 500;
+  color: #212121;
+  position: relative;
+  margin-right: 1rem;
+}
+.navbar-nav li a:not(.btn)::after {
+  content: " ";
+  display: block;
+  width: 1.5rem;
+  height: 2px;
+  position: absolute;
+  bottom: 0.25rem;
+  left: -0.5rem;
+  background-color: #212121;
+  opacity: 0;
+}
+.navbar-nav li a:hover::after {
+  left: 0.5rem;
+  opacity: 1;
+  transition: 0.15s;
 }
 .navbar-nav li a.active {
-  color: #4392F7 !important;
+  color: #616161 !important;
+  border-bottom-color: #616161;
 }
-.navbar-nav li a.btn-darker {
-  background-color: #131313;
-  color: #FBF9F5 !important;
-  padding: 6px;
-  margin-left: 32px;
+.navbar-nav li a.active::after {
+  left: 0.5rem;
+  background-color: #616161;
+  opacity: 1;
+}
+.navbar-nav li a.btn {
+  color: #FFFFFF !important;
+  padding: 0 0.75rem !important;
 }
 @media (max-width: 991px) {
   .navbar-nav {
@@ -301,10 +395,6 @@ section {
   background-image: url(../img/icon-linkedin.png);
 }
 
-footer {
-  border-top: 1px solid #E3E1DD !important;
-}
-
 form {
   margin: 32px 0;
   overflow: hidden;
@@ -315,17 +405,38 @@ form {
 input,
 textarea {
   border: 0;
-  border-bottom: 1px solid #131313;
+  border-bottom: 1px solid #212121;
   padding: 12px;
   width: 100%;
   margin-bottom: 32px;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  color: #131313;
+  font-family: "Inter", sans-serif;
+  color: #212121;
 }
 input::placeholder,
 textarea::placeholder {
-  color: #E3E1DD;
+  color: #616161;
+}
+
+.comments-carousel {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (min-width: 960px) {
+  .comments-carousel {
+    width: 60%;
+  }
+}
+.comments-carousel .carousel-indicators {
+  bottom: -1.5rem;
+}
+.comments-carousel .carousel-indicators [data-bs-target] {
+  background-color: #616161;
+}
+.comments-carousel .bi {
+  margin-right: 0.25rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
