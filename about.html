@@ -152,23 +152,15 @@
     <div id="footer-container"></div>
   
 
-    <!-- JavaScript files -->
-    <script src="../js/injectComponents.js"></script>
-    <script src="../js/utils.js"></script>
-    <script>
-      loadComponent("#navbar-container", "components/navbar.html", () =>{
-        highlightActiveNavLink();
-      });
-      loadComponent("#hero-container", "components/hero.html");
-      loadComponent("#footer-container", "components/footer.html", () => {
-        startUruguayClock();
-        enableBackToTop();
-      });
-    </script>
+  <!-- JavaScript Files -->
+  <script src="/js/injectComponents.js"></script>
+  <script src="/js/utils.js"></script>
+  <script src="/js/initComponents.js"></script>
+  <script>
+    loadComponent("#navbar-container", "/components/navbar.html");
+    loadComponent("#hero-container", "/components/hero.html"); // if needed
+    loadComponent("#footer-container", "/components/footer.html");
+  </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-    
-
-  </body>
-</html>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
